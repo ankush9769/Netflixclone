@@ -1,0 +1,350 @@
+.mainmobilebox{
+    align-content: center;
+    margin-top: 7px;
+    height: 525px;
+    background-color: black;
+}
+.mobilebox{
+    display: flex;
+    position: relative;
+    left: 120px;
+    width: 1100px;
+    height: 363px;
+}
+.firstmobile{
+    justify-items: center;
+    background-image: url("mobile-0819_2.jpg");
+    background-size:contain ;
+    width: 500px;
+}
+.minibox{
+    display: flex;
+    background-color: black;
+    position: relative;
+    bottom: -247px;
+    left: 76px;
+    width: 326px;
+    height: 93px;
+    border: 2px rgb(105, 102, 102) solid;
+    border-radius: 14px;
+}
+.miniboximg{
+    margin-top: 9px;
+    margin-left: 11px;
+    width: 51.42px;
+    height: 72px;
+    background-image: url("boxshot.png");
+    background-size: cover;
+}
+.miniboxtext{
+    align-content: center;
+    margin-left: 15px;
+    margin-top: 9px;
+    width: 180px;
+    height: 72px;
+
+}
+.downloadlogo{
+    text-align: center;
+    align-content: center;
+    margin-top: 9px;
+    width: 60px;
+    height: 72px;
+}
+.minitext1{
+    font-size: 16px;
+    font-weight: 550;
+
+}
+.minitext2{
+    padding-top: 2px;
+    font-size: 14px;
+    color: #0071eb;
+
+}
+.secondmobile{
+    width: 600px;
+}
+.mobiletext{
+    padding-top: 38px;
+}
+.mobiletext1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.mobiletext2{
+    position: relative;
+    top: 10px;
+    padding-top: 6px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+
+
+
+.maintvbox{
+    align-content: center;
+    margin-top: 7px;
+    height: 525px;
+    background-color: black;
+}
+.tvbox{
+    position: relative;
+    left: 164px;
+    
+    display: flex;
+    width: 1030px;
+    height: 363px;
+}
+.firsttv{
+    width: 520px;
+    
+}
+.secondtv{
+    width: 509px;
+}
+.tvimg{
+    position: relative;
+    bottom: 216px;
+    width: 509px;
+    height: 363px;
+    background-image: url("tv2.png");
+    background-size: cover;
+    
+}
+
+.tvpic{
+    width: 380px;
+    height: 212px;
+    position: relative;
+    top: 52px;
+    left: 68px;
+}
+@keyframes backgroundChange {
+    0% { background-position: 0 0; } /* Start with first image */
+    50% { background-position: 100% 0; } /* Slide to second image halfway */
+    100% { background-position: 0 0; } /* Return to first image at the end */
+}
+.tvtext1{
+    padding-top: 60px;  
+    font-size: 47px;
+    font-weight:800;
+}
+.tvtext2{
+    padding-top: 20px;
+    font-size: 23px;
+}
+.tvt1{
+    padding-top: 5px;
+    font-size: 23px;
+}
+
+
+
+.mainmacbookbox{
+    align-content: center;
+    margin-top: 7px;
+    height: 525px;
+    background-color: black;
+}
+.macbookbox{
+    position: relative;
+    left: 164px;
+    display: flex;
+    width: 1030px;
+    height: 363px;
+}
+.firstmacbook{
+    width: 520px;
+    
+}
+.secondmacbook{
+    width: 509px;
+}
+.macbookimg{
+    position: relative;
+    bottom: 216px;
+    width: 509px;
+    height: 363px;
+    background-image: url("device-pile-in.png");
+    background-size: cover;
+    
+}
+.macbookvideo{
+    width: 329px;
+    height: 212px;
+    position: relative;
+    top: 33px;
+    left: 90px;
+}
+.macbooktext1{
+    padding-top: 80px;  
+    font-size: 47px;
+    font-weight:800;
+}
+.macbookt1{
+    position: absolute;
+    top: 165px;
+    padding-top: 4px;
+    font-size: 23px;
+}
+.macbookt2{
+    position: absolute;
+    top: 196px;
+    padding-top: 4px;
+    font-size: 23px;
+}
+
+
+
+.mainkidsbox{
+    align-content: center;
+    margin-top: 7px;
+    height: 525px;
+    background-color: black;
+}
+.kidsbox{
+    display: flex;
+    position: relative;
+    left: 120px;
+    width: 1100px;
+    height: 363px;
+}
+.firstkids{
+    justify-items: center;
+    background-image: url("children.png");
+    background-size:contain ;
+    width: 500px;
+}
+.secondkids{
+    width: 600px;
+}
+.kidstext{
+    padding-top: 38px;
+}
+.kidstext1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.kidstext2{
+    font-size: 45px;
+    font-weight: 800;
+}
+.kidstext3{
+    position: relative;
+    top: 10px;
+    padding-top: 6px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.kidstext4{
+    position: relative;
+    top: 10px;
+    padding-top: 6px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.kidstext5{
+    position: relative;
+    top: 10px;
+    padding-top: 6px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+
+
+
+
+.mainquestionbox{
+    align-content: center;
+    margin-top: 7px;
+    height: 910px;
+    background-color: black;
+}
+.question{
+    position: relative;
+    top: -39px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.qt{
+    position: relative;
+    top: -35px;
+}
+.qt1{
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 20px;
+    display: flex;
+    width: 1034px;
+    height: 84px;
+    background-color: rgb(56, 55, 55);
+    font-size: 24px;
+}
+.qt1:hover {
+    background-color: rgb(112, 110, 110);
+    
+}
+.plus{
+    font-size: 40px;
+    position: relative;
+    right:20px;
+}
+
+
+.copyright{
+    color: rgb(206, 199, 199);
+    align-content: center;
+    margin-top: 7px;
+    height: 407px;
+    background-color: black;
+}
+.box1{
+    position: relative;
+    top: -55px;
+    left: 166px;
+}
+.box2{
+    position: relative;
+    top: -26px;
+    left: 126px ;
+    display: flex;
+    width: 1040px;;
+    height: 150px;
+}
+.minibox1{
+    width: 260px;
+}
+li{
+    color:rgb(71, 70, 70); ;
+    padding-top: 12px ;
+}
+.language2{
+    margin-left: 167px;
+    position: relative;
+    top: -29px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    width: 126px;
+    height: 31px;
+    border: 1px rgb(180, 176, 176) solid;
+    border-radius: 5px;
+}
+.languagelogo2{
+    width: 30px;
+    height: 30px;
+    background-image: url("language.png");
+    background-size: cover;
+}
+.box4{
+    position: relative;
+    left: 166px;
+}
